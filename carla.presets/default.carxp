@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- Carla-RackFX -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Carla-RackFX</Name>
+   <Binary>/usr/lib/vst/carla.vst/CarlaRackFX.so</Binary>
+   <UniqueID>1131572322</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e9</Options>
+
+   <Chunk>
+PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCFET0NUWVBFIENBUkxBLVBST0pFQ1Q+CjxDQVJMQS1QUk9KRUNUIFZFUlNJT049JzIu
+MCc+CiA8RW5naW5lU2V0dGluZ3M+CiAgPEZvcmNlU3RlcmVvPmZhbHNlPC9Gb3JjZVN0ZXJlbz4KICA8UHJlZmVyUGx1Z2luQnJpZGdlcz5mYWxzZTwvUHJl
+ZmVyUGx1Z2luQnJpZGdlcz4KICA8UHJlZmVyVWlCcmlkZ2VzPnRydWU8L1ByZWZlclVpQnJpZGdlcz4KICA8VUlzQWx3YXlzT25Ub3A+ZmFsc2U8L1VJc0Fs
+d2F5c09uVG9wPgogIDxNYXhQYXJhbWV0ZXJzPjIwMDwvTWF4UGFyYW1ldGVycz4KICA8VUlCcmlkZ2VzVGltZW91dD40MDAwPC9VSUJyaWRnZXNUaW1lb3V0
+PgogIDxMQURTUEFfUEFUSD4vaG9tZS9jb2xlLy5sYWRzcGE6L21lZGlhL2NvbGUvV0RHMVRCL0RBVy92c3Q6L3Vzci9saWIvbGFkc3BhOi91c3IvbG9jYWwv
+bGliL2xhZHNwYTwvTEFEU1BBX1BBVEg+CiAgPERTU0lfUEFUSD4vaG9tZS9jb2xlLy5kc3NpOi91c3IvbGliL2Rzc2k6L3Vzci9sb2NhbC9saWIvZHNzaTwv
+RFNTSV9QQVRIPgogIDxMVjJfUEFUSD4vaG9tZS9jb2xlLy5sdjI6L3Vzci9saWIvbHYyOi91c3IvbG9jYWwvbGliL2x2MjwvTFYyX1BBVEg+CiAgPFZTVDJf
+UEFUSD4vaG9tZS9jb2xlLy52c3Q6L2hvbWUvY29sZS9DYXJsYS9WU1Q6L3Vzci9saWIvdnN0Oi91c3IvbG9jYWwvbGliL3ZzdDwvVlNUMl9QQVRIPgogIDxH
+SUdfUEFUSD4vaG9tZS9jb2xlLy5zb3VuZHMvZ2lnOi91c3Ivc2hhcmUvc291bmRzL2dpZzwvR0lHX1BBVEg+CiAgPFNGMl9QQVRIPi9ob21lL2NvbGUvLnNv
+dW5kcy9zZjI6L3Vzci9zaGFyZS9zb3VuZHMvc2YyPC9TRjJfUEFUSD4KICA8U0ZaX1BBVEg+L2hvbWUvY29sZS8uc291bmRzL3NmejovdXNyL3NoYXJlL3Nv
+dW5kcy9zZno8L1NGWl9QQVRIPgogPC9FbmdpbmVTZXR0aW5ncz4KCiA8IS0tICNURXF1YWxpc2VyIC0tPgogPFBsdWdpbj4KICA8SW5mbz4KICAgPFR5cGU+
+VlNUMjwvVHlwZT4KICAgPE5hbWU+I1RFcXVhbGlzZXI8L05hbWU+CiAgIDxCaW5hcnk+L2hvbWUvY29sZS8udnN0L0RBVyBFc3NlbnRpYWxzIENvbGxlY3Rp
+b24vI1RFcXVhbGlzZXIuc288L0JpbmFyeT4KICAgPFVuaXF1ZUlEPjExNjI5NjU4NzQ8L1VuaXF1ZUlEPgogIDwvSW5mbz4KCiAgPERhdGE+CiAgIDxBY3Rp
+dmU+WWVzPC9BY3RpdmU+CiAgIDxDb250cm9sQ2hhbm5lbD4xPC9Db250cm9sQ2hhbm5lbD4KICAgPE9wdGlvbnM+MHg4PC9PcHRpb25zPgoKICAgPEN1cnJl
+bnRQcm9ncmFtSW5kZXg+MTwvQ3VycmVudFByb2dyYW1JbmRleD4KICAgPEN1cnJlbnRQcm9ncmFtTmFtZT5GYWN0b3J5IERlZmF1bHQ8L0N1cnJlbnRQcm9n
+cmFtTmFtZT4KCiAgIDxDdXN0b21EYXRhPgogICAgPFR5cGU+aHR0cDovL2t4c3R1ZGlvLnNmLm5ldC9ucy9jYXJsYS9wcm9wZXJ0eTwvVHlwZT4KICAgIDxL
+ZXk+Q2FybGFTa2luSXNDb21wYWN0ZWQ8L0tleT4KICAgIDxWYWx1ZT5mYWxzZTwvVmFsdWU+CiAgIDwvQ3VzdG9tRGF0YT4KCiAgIDxDaHVuaz4KVUZKUFIx
+SkJUUUFCQkhCc2RXZHBia2xFQUFFTUJWUkZjWFZoYkdselpYSUFjSEp2WjNKaGJVUnBjblI1QUFFQkFtTjFjbkpsYm5SUWNtOW5jbUZ0QUFFWUJWTndaV0Zy
+YVc1bklGWnZhV05sSUVsdGNISnZkbVVBCmNISnZaM0poYlVsRUFBRWlCV1ZpT0RJMk9XWmhPVGs0T1RRME9HVTVNRFEyWmpKa01tUmpNemt6TTJZMkFBRXRV
+RUZTUVUwQUFRSnBaQUFCREFWaVlXNWtNVk4wWVhSbEFIWmhiSFZsQUFFREJURUFBRkJCVWtGTgpBQUVDYVdRQUFSQUZZbUZ1WkRGR2NtVnhkV1Z1WTNrQWRt
+RnNkV1VBQVFrRUFBQUF3QndTVjBBQVVFRlNRVTBBQVFKcFpBQUJDd1ZpWVc1a01VZGhhVzRBZG1Gc2RXVUFBUWtFQUFBQUFIT29JMEFBVUVGU1FVMEEKQVFK
+cFpBQUJDQVZpWVc1a01WRUFkbUZzZFdVQUFRTUZNUUFBVUVGU1FVMEFBUUpwWkFBQkRBVmlZVzVrTVZOb1lYQmxBSFpoYkhWbEFBRURCVFlBQUZCQlVrRk5B
+QUVDYVdRQUFRd0ZZbUZ1WkRKVGRHRjBaUUIyCllXeDFaUUFCQ1FRQUFBQUFBQUFBQUFCUVFWSkJUUUFCQW1sa0FBRVFCV0poYm1ReVJuSmxjWFZsYm1ONUFI
+WmhiSFZsQUFFSkJBQUFBRUJlUEhOQUFGQkJVa0ZOQUFFQ2FXUUFBUXNGWW1GdVpESkhZV2x1QUhaaApiSFZsQUFFSkJBQUFBQURBeXZXL0FGQkJVa0ZOQUFF
+Q2FXUUFBUWdGWW1GdVpESlJBSFpoYkhWbEFBRUpCQUFBQU9BaTI3ay9BRkJCVWtGTkFBRUNhV1FBQVF3RlltRnVaREpUYUdGd1pRQjJZV3gxWlFBQkF3VXgK
+QUFCUVFWSkJUUUFCQW1sa0FBRU1CV0poYm1RelUzUmhkR1VBZG1Gc2RXVUFBUU1GTVFBQVVFRlNRVTBBQVFKcFpBQUJFQVZpWVc1a00wWnlaWEYxWlc1amVR
+QjJZV3gxWlFBQkNRUUFBQUJnNEN5bVFBQlFRVkpCClRRQUJBbWxrQUFFTEJXSmhibVF6UjJGcGJnQjJZV3gxWlFBQkNRUUFBQUFBQ1N3Y1FBQlFRVkpCVFFB
+QkFtbGtBQUVJQldKaGJtUXpVUUIyWVd4MVpRQUJGd1V4TGpNd01EQXdNREEzTVRVeU5UVTNNemN6TURVQQpBRkJCVWtGTkFBRUNhV1FBQVF3RlltRnVaRE5U
+YUdGd1pRQjJZV3gxWlFBQkNRUUFBQUFBQUFBQVFBQlFRVkpCVFFBQkFtbGtBQUVNQldKaGJtUTBVM1JoZEdVQWRtRnNkV1VBQVFNRk1RQUFVRUZTUVUwQUFR
+SnAKWkFBQkVBVmlZVzVrTkVaeVpYRjFaVzVqZVFCMllXeDFaUUFCQ1FRQUFBREFuYU55UUFCUVFWSkJUUUFCQW1sa0FBRUxCV0poYm1RMFIyRnBiZ0IyWVd4
+MVpRQUJDUVFBQUFDQWdCVWN3QUJRUVZKQlRRQUJBbWxrCkFBRUlCV0poYm1RMFVRQjJZV3gxWlFBQkNRUUFBQURBSEZyMFB3QlFRVkpCVFFBQkFtbGtBQUVN
+QldKaGJtUTBVMmhoY0dVQWRtRnNkV1VBQVFrRUFBQUFBQUFBQUVBQVVFRlNRVTBBQVFKcFpBQUJEQVZpWVc1awpOVk4wWVhSbEFIWmhiSFZsQUFFSkJBQUFB
+QUFBQVBBL0FGQkJVa0ZOQUFFQ2FXUUFBUkFGWW1GdVpEVkdjbVZ4ZFdWdVkza0FkbUZzZFdVQUFRa0VBQUFBZ0pETnRVQUFVRUZTUVUwQUFRSnBaQUFCQ3dW
+aVlXNWsKTlVkaGFXNEFkbUZzZFdVQUFRa0VBQUFBQUxDZC9iOEFVRUZTUVUwQUFRSnBaQUFCQ0FWaVlXNWtOVkVBZG1Gc2RXVUFBUWtFQUFBQTRDTGJ1VDhB
+VUVGU1FVMEFBUUpwWkFBQkRBVmlZVzVrTlZOb1lYQmxBSFpoCmJIVmxBQUVEQlRJQUFGQkJVa0ZOQUFFQ2FXUUFBUXdGWW1GdVpEWlRkR0YwWlFCMllXeDFa
+UUFCQ1FRQUFBQUFBQUR3UHdCUVFWSkJUUUFCQW1sa0FBRVFCV0poYm1RMlJuSmxjWFZsYm1ONUFIWmhiSFZsQUFFSgpCQUFBQU1DRkxyaEFBRkJCVWtGTkFB
+RUNhV1FBQVFzRlltRnVaRFpIWVdsdUFIWmhiSFZsQUFFSkJBQUFBSUJ3dlNMQUFGQkJVa0ZOQUFFQ2FXUUFBUWdGWW1GdVpEWlJBSFpoYkhWbEFBRUpCQUFB
+QUNBQWdCZEEKQUZCQlVrRk5BQUVDYVdRQUFRd0ZZbUZ1WkRaVGFHRndaUUIyWVd4MVpRQUJDUVFBQUFBQUFBQUFRQUJRUVZKQlRRQUJBbWxrQUFFTUJXSmhi
+bVEzVTNSaGRHVUFkbUZzZFdVQUFRa0VBQUFBQUFBQUFBQUFVRUZTClFVMEFBUUpwWkFBQkVBVmlZVzVrTjBaeVpYRjFaVzVqZVFCMllXeDFaUUFCQ1FRQUFB
+QWdBSUI3UUFCUVFWSkJUUUFCQW1sa0FBRUxCV0poYm1RM1IyRnBiZ0IyWVd4MVpRQUJDUVFBQUFBQUFBREFQZ0JRUVZKQgpUUUFCQW1sa0FBRUlCV0poYm1R
+M1VRQjJZV3gxWlFBQkNRUUFBQUFBQUFEd1B3QlFRVkpCVFFBQkFtbGtBQUVNQldKaGJtUTNVMmhoY0dVQWRtRnNkV1VBQVFrRUFBQUFBQUFBQUVBQVVFRlNR
+VTBBQVFKcFpBQUIKREFWaVlXNWtPRk4wWVhSbEFIWmhiSFZsQUFFSkJBQUFBQUFBQUFBQUFGQkJVa0ZOQUFFQ2FXUUFBUkFGWW1GdVpEaEdjbVZ4ZFdWdVkz
+a0FkbUZzZFdVQUFRa0VBQUFBSUFDQWUwQUFVRUZTUVUwQUFRSnBaQUFCCkN3VmlZVzVrT0VkaGFXNEFkbUZzZFdVQUFRa0VBQUFBQUFBQXdENEFVRUZTUVUw
+QUFRSnBaQUFCQ0FWaVlXNWtPRkVBZG1Gc2RXVUFBUWtFQUFBQUFBQUE4RDhBVUVGU1FVMEFBUUpwWkFBQkRBVmlZVzVrT0ZObwpZWEJsQUhaaGJIVmxBQUVK
+QkFBQUFBQUFBQUJBQUZCQlVrRk5BQUVDYVdRQUFRZ0ZaVzVoWW14bEFIWmhiSFZsQUFFSkJBQUFBQUFBQVBBL0FGQkJVa0ZOQUFFQ2FXUUFBUXdGYjNWMGNI
+VjBSMkZwYmdCMllXeDEKWlFBQkNRUUFBQUFBQUFBQUFBQlFRVkpCVFFBQkFtbGtBQUVLQlhOdmJHOUNZVzVrQUhaaGJIVmxBQUVKQkFBQUFBQUFBUEMvQUZC
+QlVrRk5BQUVDYVdRQUFRb0ZjMjlzYjBkaGFXNEFkbUZzZFdVQUFRa0VBQUFBCkFBQUFBQUFBVUVGU1FVMEFBUUpwWkFBQkRnVmhibUZzZVhObGNrMXZaR1VB
+ZG1Gc2RXVUFBUWtFQUFBQUFBQUFDRUFBCiAgIDwvQ2h1bms+CiAgPC9EYXRhPgogPC9QbHVnaW4+CgogPCEtLSAjVEJ1cyBDb21wcmVzc29yIC0tPgogPFBs
+dWdpbj4KICA8SW5mbz4KICAgPFR5cGU+VlNUMjwvVHlwZT4KICAgPE5hbWU+I1RCdXMgQ29tcHJlc3NvcjwvTmFtZT4KICAgPEJpbmFyeT4vaG9tZS9jb2xl
+Ly52c3QvREFXIEVzc2VudGlhbHMgQ29sbGVjdGlvbi8jVEJ1cyBDb21wcmVzc29yLnNvPC9CaW5hcnk+CiAgIDxVbmlxdWVJRD4xMTExNzE1MTg0PC9Vbmlx
+dWVJRD4KICA8L0luZm8+CgogIDxEYXRhPgogICA8QWN0aXZlPlllczwvQWN0aXZlPgogICA8RHJ5V2V0PjAuNzU1Mjk0MTwvRHJ5V2V0PgogICA8Q29udHJv
+bENoYW5uZWw+MTwvQ29udHJvbENoYW5uZWw+CiAgIDxPcHRpb25zPjB4ODwvT3B0aW9ucz4KCiAgIDxDdXJyZW50UHJvZ3JhbUluZGV4PjE8L0N1cnJlbnRQ
+cm9ncmFtSW5kZXg+CiAgIDxDdXJyZW50UHJvZ3JhbU5hbWU+RmFjdG9yeSBEZWZhdWx0PC9DdXJyZW50UHJvZ3JhbU5hbWU+CgogICA8Q2h1bms+ClVGSlBS
+MUpCVFFBQkJIQnNkV2RwYmtsRUFBRVJCVlJDZFhNZ1EyOXRjSEpsYzNOdmNnQndjbTluY21GdFJHbHlkSGtBQVFFQ1kzVnljbVZ1ZEZCeWIyZHlZVzBBQVEw
+RlVFRWdSR1ZtWVhWc2RDQUFjSEp2WjNKaApiVWxFQUFFaUJXVTFZVE5tWVdJeE9UZzNNalJsWmpkaU5EazRaV1JpWldFNU5qUXlORGRpQUFFR1VFRlNRVTBB
+QVFKcFpBQUJDQVZsYm1GaWJHVUFkbUZzZFdVQUFRTUZNUUFBVUVGU1FVMEFBUUpwWkFBQkN3VjAKYUhKbGMyaHZiR1FBZG1Gc2RXVUFBUmdGTFRFM0xqazVP
+VGs1TmpFNE5UTXdNamN6TkRNM05RQUFVRUZTUVUwQUFRSnBaQUFCQndWeVlYUnBid0IyWVd4MVpRQUJDUVFBQUFDQVAyZ1FRQUJRUVZKQlRRQUJBbWxrCkFB
+RUlCV0YwZEdGamF3QjJZV3gxWlFBQkJBVXpOZ0FBVUVGU1FVMEFBUUpwWkFBQkNRVnlaV3hsWVhObEFIWmhiSFZsQUFFRkJUY3hOUUFBVUVGU1FVMEFBUUpw
+WkFBQkRBVnRZV3RsZFhCSFlXbHVBSFpoYkhWbApBQUVEQlRBQUFBPT0KICAgPC9DaHVuaz4KICA8L0RhdGE+CiA8L1BsdWdpbj4KCiA8IS0tIENhbGYgR2F0
+ZSAtLT4KIDxQbHVnaW4+CiAgPEluZm8+CiAgIDxUeXBlPkxWMjwvVHlwZT4KICAgPE5hbWU+Q2FsZiBHYXRlPC9OYW1lPgogICA8VVJJPmh0dHA6Ly9jYWxm
+LnNvdXJjZWZvcmdlLm5ldC9wbHVnaW5zL0dhdGU8L1VSST4KICA8L0luZm8+CgogIDxEYXRhPgogICA8QWN0aXZlPlllczwvQWN0aXZlPgogICA8Q29udHJv
+bENoYW5uZWw+MTwvQ29udHJvbENoYW5uZWw+CiAgIDxPcHRpb25zPjB4MWUxPC9PcHRpb25zPgoKICAgPFBhcmFtZXRlcj4KICAgIDxJbmRleD4wPC9JbmRl
+eD4KICAgIDxOYW1lPkJ5cGFzczwvTmFtZT4KICAgIDxTeW1ib2w+YnlwYXNzPC9TeW1ib2w+CiAgICA8VmFsdWU+MDwvVmFsdWU+CiAgIDwvUGFyYW1ldGVy
+PgoKICAgPFBhcmFtZXRlcj4KICAgIDxJbmRleD4xPC9JbmRleD4KICAgIDxOYW1lPklucHV0PC9OYW1lPgogICAgPFN5bWJvbD5sZXZlbF9pbjwvU3ltYm9s
+PgogICAgPFZhbHVlPjE8L1ZhbHVlPgogICA8L1BhcmFtZXRlcj4KCiAgIDxQYXJhbWV0ZXI+CiAgICA8SW5kZXg+NjwvSW5kZXg+CiAgICA8TmFtZT5NYXgg
+R2FpbiBSZWR1Y3Rpb248L05hbWU+CiAgICA8U3ltYm9sPnJhbmdlPC9TeW1ib2w+CiAgICA8VmFsdWU+MS41OTk5OTk5OTU5NjAzOWUtMDU8L1ZhbHVlPgog
+ICA8L1BhcmFtZXRlcj4KCiAgIDxQYXJhbWV0ZXI+CiAgICA8SW5kZXg+NzwvSW5kZXg+CiAgICA8TmFtZT5UaHJlc2hvbGQ8L05hbWU+CiAgICA8U3ltYm9s
+PnRocmVzaG9sZDwvU3ltYm9sPgogICAgPFZhbHVlPjAuMDIwNjE3MDAwNzU4NjQ3OTwvVmFsdWU+CiAgIDwvUGFyYW1ldGVyPgoKICAgPFBhcmFtZXRlcj4K
+ICAgIDxJbmRleD44PC9JbmRleD4KICAgIDxOYW1lPlJhdGlvPC9OYW1lPgogICAgPFN5bWJvbD5yYXRpbzwvU3ltYm9sPgogICAgPFZhbHVlPjIuMjM5Nzk4
+MDY5MDAwMjQ8L1ZhbHVlPgogICA8L1BhcmFtZXRlcj4KCiAgIDxQYXJhbWV0ZXI+CiAgICA8SW5kZXg+OTwvSW5kZXg+CiAgICA8TmFtZT5BdHRhY2s8L05h
+bWU+CiAgICA8U3ltYm9sPmF0dGFjazwvU3ltYm9sPgogICAgPFZhbHVlPjAuMDkzMDE5OTk5NTYzNjk0PC9WYWx1ZT4KICAgPC9QYXJhbWV0ZXI+CgogICA8
+UGFyYW1ldGVyPgogICAgPEluZGV4PjEwPC9JbmRleD4KICAgIDxOYW1lPlJlbGVhc2U8L05hbWU+CiAgICA8U3ltYm9sPnJlbGVhc2U8L1N5bWJvbD4KICAg
+IDxWYWx1ZT4xNTMuNDI1OTMzODM3ODkxPC9WYWx1ZT4KICAgPC9QYXJhbWV0ZXI+CgogICA8UGFyYW1ldGVyPgogICAgPEluZGV4PjExPC9JbmRleD4KICAg
+IDxOYW1lPk1ha2V1cCBHYWluPC9OYW1lPgogICAgPFN5bWJvbD5tYWtldXA8L1N5bWJvbD4KICAgIDxWYWx1ZT4xPC9WYWx1ZT4KICAgPC9QYXJhbWV0ZXI+
+CgogICA8UGFyYW1ldGVyPgogICAgPEluZGV4PjEyPC9JbmRleD4KICAgIDxOYW1lPktuZWU8L05hbWU+CiAgICA8U3ltYm9sPmtuZWU8L1N5bWJvbD4KICAg
+IDxWYWx1ZT41LjI3ODAzMTM0OTE4MjEzPC9WYWx1ZT4KICAgPC9QYXJhbWV0ZXI+CgogICA8UGFyYW1ldGVyPgogICAgPEluZGV4PjEzPC9JbmRleD4KICAg
+IDxOYW1lPkRldGVjdGlvbjwvTmFtZT4KICAgIDxTeW1ib2w+ZGV0ZWN0aW9uPC9TeW1ib2w+CiAgICA8VmFsdWU+MDwvVmFsdWU+CiAgIDwvUGFyYW1ldGVy
+PgoKICAgPFBhcmFtZXRlcj4KICAgIDxJbmRleD4xNDwvSW5kZXg+CiAgICA8TmFtZT5TdGVyZW8gTGluazwvTmFtZT4KICAgIDxTeW1ib2w+c3RlcmVvX2xp
+bms8L1N5bWJvbD4KICAgIDxWYWx1ZT4wPC9WYWx1ZT4KICAgPC9QYXJhbWV0ZXI+CgogICA8Q3VzdG9tRGF0YT4KICAgIDxUeXBlPmh0dHA6Ly9reHN0dWRp
+by5zZi5uZXQvbnMvY2FybGEvcHJvcGVydHk8L1R5cGU+CiAgICA8S2V5PkNhcmxhU2tpbklzQ29tcGFjdGVkPC9LZXk+CiAgICA8VmFsdWU+ZmFsc2U8L1Zh
+bHVlPgogICA8L0N1c3RvbURhdGE+CgogICA8Q3VzdG9tRGF0YT4KICAgIDxUeXBlPmh0dHA6Ly9reHN0dWRpby5zZi5uZXQvbnMvY2FybGEvc3RyaW5nPC9U
+eXBlPgogICAgPEtleT5DYXJsYUxvYWRMdjJTdGF0ZU5vdzwvS2V5PgogICAgPFZhbHVlPnRydWU8L1ZhbHVlPgogICA8L0N1c3RvbURhdGE+CiAgPC9EYXRh
+PgogPC9QbHVnaW4+CjwvQ0FSTEEtUFJPSkVDVD4KAA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Carla-RackFX:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Carla-RackFX:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>Non-Mixer/UMC-2:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>Non-Mixer/UMC-2:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_3</Source>
+   <Target>Non-Mixer/UMC-3:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_3</Source>
+   <Target>Non-Mixer/UMC-3:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_4</Source>
+   <Target>Non-Mixer/UMC-4:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_4</Source>
+   <Target>Non-Mixer/UMC-4:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>voip-out:front-left</Source>
+   <Target>Non-Mixer/Voip:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>voip-out:front-right</Source>
+   <Target>Non-Mixer/Voip:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>games-out:front-left</Source>
+   <Target>Non-Mixer/Game:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>games-out:front-right</Source>
+   <Target>Non-Mixer/Game:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>media-out:front-left</Source>
+   <Target>Non-Mixer/Music:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>media-out:front-right</Source>
+   <Target>Non-Mixer/Music:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>a2j:nanoKONTROL2 [28] (capture): nanoKONTROL2 MIDI 1</Source>
+   <Target>a2j:mididings [129] (playback): in_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-1:out-1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-1:out-2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-2:out-1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-2:out-2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-3:out-1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-3:out-2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-4:out-1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/UMC-4:out-2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Game:out-1</Source>
+   <Target>Non-Mixer/System:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Game:out-2</Source>
+   <Target>Non-Mixer/System:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Music:out-1</Source>
+   <Target>Non-Mixer/System:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Music:out-2</Source>
+   <Target>Non-Mixer/System:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Voip:out-1</Source>
+   <Target>Non-Mixer/System:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/Voip:out-2</Source>
+   <Target>Non-Mixer/System:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/VoipSend:out-1</Source>
+   <Target>media-in:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/VoipSend:out-1</Source>
+   <Target>voip-in:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/VoipSend:out-2</Source>
+   <Target>media-in:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/VoipSend:out-2</Source>
+   <Target>voip-in:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/System:out-1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Mixer/System:out-2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla-RackFX:output_1</Source>
+   <Target>Non-Mixer/UMC-1:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla-RackFX:output_1</Source>
+   <Target>Non-Mixer/VoipSend:in-1</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla-RackFX:output_2</Source>
+   <Target>Non-Mixer/UMC-1:in-2</Target>
+  </Connection>
+  <Connection>
+   <Source>Carla-RackFX:output_2</Source>
+   <Target>Non-Mixer/VoipSend:in-2</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>
