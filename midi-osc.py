@@ -1,4 +1,4 @@
-# This scripr os for a NANOkontrol 2
+# This script os for bridging NANOkontrol 2 to work with non-mixer. Must have mididings installed for it to work.
 
 # Get the mididings and OSC stuffs
 from mididings import *
