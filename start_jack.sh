@@ -27,14 +27,14 @@ sleep 2
 a2jmidid -e &
 sleep 2
 killall mididings
-mididings -f ~/audio-config/midi-osc.py &
+mididings -f ~/audio-scripts/midi-osc.py &
 sleep 2
-non-mixer --osc-port=15159 ~/audio-config/non.mix &
-sleep 2
-
+non-mixer --osc-port=15159 ~/audio-scripts/non.mix &
 sleep 2
 
-carla ~/audio-config/carla.presets/default.carxp &
+sleep 2
+
+carla ~/audio-scripts/carla.presets/default.carxp &
 sleep 3
 wall "Audio systems up and running"
 sleep 1
