@@ -1,3 +1,5 @@
+# This scripr os for a NANOkontrol 2
+
 # Get the mididings and OSC stuffs
 from mididings import *
 from mididings.extra.osc import SendOSC
