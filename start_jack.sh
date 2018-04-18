@@ -26,8 +26,8 @@ pacmd load-module module-jack-sink channels=2 sink_name=media-out client_name=me
 sleep 2
 a2jmidid -e &
 sleep 2
-killall mididings
-mididings -f ~/audio-scripts/midi-osc.py &
+#killall mididings
+#mididings -f ~/audio-scripts/midi-osc.py &
 sleep 2
 non-mixer --osc-port=15159 ~/audio-scripts/non.mix &
 sleep 2
